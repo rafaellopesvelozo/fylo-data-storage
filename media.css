@@ -1,0 +1,65 @@
+
+@media screen and (max-width: 375px){
+    body{
+        background-image: url(images/bg-mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        height: 70%;
+        gap: 1rem;
+    }
+
+    .bar-content, .main-content{
+        width: 95%;
+    }
+    
+    .bar-content{
+        height: 10rem;
+    }
+    .bar-loading::after{
+        top: 27.54em;
+        left: 15.3rem;
+    }
+
+    .message{
+        width: 11rem;
+        height: 4rem;
+        left: 6rem;
+        top: 31rem;
+        border-radius: .7rem;
+        display: flex;
+        justify-content: center;
+    }
+    .message::after{
+        display: none;  
+    }
+    
+    .message p{
+        justify-content: center;
+    }
+
+    .bar-text{
+        justify-content: center;  
+    }
+
+    .card{
+        height: 13rem;
+        width: 95%;
+        border-radius: 0.625rem 6.25rem 0.625rem 0.625rem
+    }
+
+    .img-link{
+        width: 3em;
+        height: 3rem;
+    }
+
+    .bar-load{
+        margin: 1rem 0 0.5rem 0;
+    }
+}
